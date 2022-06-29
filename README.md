@@ -4,55 +4,17 @@
 # Sobre o Projeto
 Repositório criado para apresentação da análise de dados e machine learnig para predição de diabetes
 
-## Importação das bibliotecas que serão utilizadas 
-##### Nesse projeto utilizei NumPy, Pandas, MatplotLib, Joblib, SeaBorn e ScikitLearn
+## Bibliotecas que foram utilizadas 
+Nesse projeto utilizei NumPy, Pandas, MatplotLib, Joblib, SeaBorn e ScikitLearn
 
-```Python 
+## Objetivo do Projeto
+O objetivo da criação dessa machine learning, foi criar uma inteligência para fazer a predição de diabetes em mulheres de acordo com uma base de dados. Os dados disponiveis das pacientes que foram testadas eram a quantidade de gravidezes, glicose, pressão arterial, espessura da dobra cutanêa do tríceps, insulina, IMC (Indice de Massa Corporal), Pedigree para diabetes e a Idade. 
 
-import numpy as np
-import pandas as pd
-import matplotlib as mat
-import matplotlib.pyplot as plt
-import joblib 
-import seaborn as sns
-import sklearn as sk
-from sklearn import metrics
-from sklearn.linear_model import LogisticRegression # Modelo de regressão linear
-from sklearn.preprocessing import MinMaxScaler # Para transformar os dados
-from sklearn.model_selection import train_test_split # Para dividir o banco de dados
-from sklearn.neighbors import KNeighborsClassifier # Modelo KNN
-from sklearn.tree import DecisionTreeClassifier #Decision Tree Model
-from sklearn.neural_network import MLPClassifier #MLP Model
+##Conclusão
+Ao fim do projeto foi utilizado o modelo de regressão logística para predição da diabetes. Esse modelo obteve acurácia de 76% com essa base de dados. Os treinos foram feitos com 30% dados e os testes em 70% do dados.
 
-
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score 
-%matplotlib inline
-
-```
-
-## Importando o arquivo e verificando os dados
-
-```Python
-df_diabetes = pd.read_csv('dados_DM.csv', delimiter =',')
-```
-```Python
-df_diabetes.head(5)
-```
-![9B4132CF-E6C5-4BC8-A915-562B0023D8E2_4_5005_c](https://user-images.githubusercontent.com/96548834/176537788-4790bb2c-95ee-4076-9f30-fac909203b2a.jpeg)
-
-```Python
-df_diabetes.tail(5)
-```
-![A5D5B0FD-EBC6-46D1-AAE6-1FF8162EB5CF_4_5005_c](https://user-images.githubusercontent.com/96548834/176538944-456b4f79-c006-4cdb-bcb3-f550b19125ac.jpeg)
-
-```Python
-df_diabetes.columns
-```
-Index(['Pregnancies', 'Glicose', 'PS', 'EP', 'Insulina', 'IMC',
-       'PedigreeDiabetes', 'Idade', 'Diabete'],
-      dtype='object')
-# Arquivos usados para realizar a atividade
-[SQL_Knowledge.zip](https://github.com/IgorDamascenoM/Repository-SQL/SQL_Knowledge.zip)
+## Arquivos usados para realizar a atividade
+[dados_DM.csv](https://github.com/IgorDamascenoM/Repository_Machine_Learning/files/9014375/dados_DM.csv)
 
 # Autor
 Igor Damasceno Mota
