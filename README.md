@@ -2,13 +2,9 @@
 ![GitHub](https://img.shields.io/github/license/IgorDamascenoM/Repository2RP?style=social)
 
 # Sobre o Projeto
-Repositório criado para apresentação da analise de dados e machine learnig para predição de diabetes
+Repositório criado para apresentação da análise de dados e machine learnig para predição de diabetes
 
-# Modelo Conceitual
-
-![Diagrama (2)](https://user-images.githubusercontent.com/96548834/147158113-1c94fc78-8de3-4d08-aa17-4ad3a63e94ec.jpeg)
-
-# Criação da tabelas 
+## Importação das bibliotecas que serão utilizadas 
 
 Foi utilizado o SQL Server para criação das tabelas
 
