@@ -32,8 +32,14 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 
 ## Importando o arquivo que foi passado em csv
 
+```Python
+df_diabetes = pd.read_csv('dados_DM.csv', delimiter =',')
 ```
+```Python
+df_diabetes.head(5)
 ```
+
+
 
 # Arquivos usados para realizar a atividade
 [SQL_Knowledge.zip](https://github.com/IgorDamascenoM/Repository-SQL/SQL_Knowledge.zip)
