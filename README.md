@@ -30,7 +30,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 
 ```
 
-## Importando o arquivo que foi passado em csv
+## Importando o arquivo e verificando os dados
 
 ```Python
 df_diabetes = pd.read_csv('dados_DM.csv', delimiter =',')
@@ -40,8 +40,17 @@ df_diabetes.head(5)
 ```
 ![9B4132CF-E6C5-4BC8-A915-562B0023D8E2_4_5005_c](https://user-images.githubusercontent.com/96548834/176537788-4790bb2c-95ee-4076-9f30-fac909203b2a.jpeg)
 
+```Python
+df_diabetes.tail(5)
+```
+![A5D5B0FD-EBC6-46D1-AAE6-1FF8162EB5CF_4_5005_c](https://user-images.githubusercontent.com/96548834/176538944-456b4f79-c006-4cdb-bcb3-f550b19125ac.jpeg)
 
-
+```Python
+df_diabetes.columns
+```
+Index(['Pregnancies', 'Glicose', 'PS', 'EP', 'Insulina', 'IMC',
+       'PedigreeDiabetes', 'Idade', 'Diabete'],
+      dtype='object')
 # Arquivos usados para realizar a atividade
 [SQL_Knowledge.zip](https://github.com/IgorDamascenoM/Repository-SQL/SQL_Knowledge.zip)
 
