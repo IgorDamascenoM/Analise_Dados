@@ -5,8 +5,22 @@
 Repositório criado para apresentação da análise de dados e machine learnig para predição de diabetes
 
 ## Importação das bibliotecas que serão utilizadas 
+##### Nesse projeto utilizei NumPy, Pandas, MatplotLib, Joblib, Missingno, SeaBorn e ScikitLearn
 
-Foi utilizado o SQL Server para criação das tabelas
+```Python 
+
+import numpy as np
+import pandas as pd
+import matplotlib as mat
+import matplotlib.pyplot as plt
+import joblib 
+import missingno as msno
+import seaborn as sns
+import sklearn as sk
+from sklearn import metrics
+from sklearn.preprocessing import MinMaxScaler
+
+```
 
 # Tabelas
 
