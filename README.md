@@ -2,7 +2,7 @@
 ![GitHub](https://img.shields.io/github/license/IgorDamascenoM/Repository2RP?style=social)
 
 # Sobre o Projeto
-Repositório criado para apresentação da análise de dados e machine learnig para predição de diabetes
+Repositório criado para apresentação da análise de dados e machine learning para predição de diabetes
 
 ## Bibliotecas que foram utilizadas 
 Nesse projeto utilizei NumPy, Pandas, MatplotLib, Joblib, SeaBorn e ScikitLearn
