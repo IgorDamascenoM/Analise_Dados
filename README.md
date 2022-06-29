@@ -38,6 +38,7 @@ df_diabetes = pd.read_csv('dados_DM.csv', delimiter =',')
 ```Python
 df_diabetes.head(5)
 ```
+![9B4132CF-E6C5-4BC8-A915-562B0023D8E2_4_5005_c](https://user-images.githubusercontent.com/96548834/176537788-4790bb2c-95ee-4076-9f30-fac909203b2a.jpeg)
 
 
 
